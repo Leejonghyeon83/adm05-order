@@ -25,10 +25,10 @@ spring:
       bindings:
         event-in:
           group: order
-          destination: shop
+          destination: abcmarket
           contentType: application/json
         event-out:
-          destination: shop
+          destination: abcmarket
           contentType: application/json
 
 logging:
@@ -61,10 +61,10 @@ spring:
       bindings:
         event-in:
           group: order
-          destination: shop
+          destination: abcmarket
           contentType: application/json
         event-out:
-          destination: shop
+          destination: abcmarket
           contentType: application/json
 
 api:
