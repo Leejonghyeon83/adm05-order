@@ -1,10 +1,9 @@
 version: 0.2
 
-
 env:
   variables:
     IMAGE_REPO_NAME: "admin05-order"
-    _PROJECT_NAME: "order"
+    _PROJECT_NAME: "admin05-order"
 
 phases:
   install:
